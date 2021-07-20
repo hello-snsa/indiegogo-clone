@@ -1,0 +1,31 @@
+.navBarMainDiv{
+padding: 1%;
+/* display: grid; */
+/* grid-template-columns:50% 50% ; */
+
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.navBarLeftDiv{
+  /* float:left; */
+  display: grid;
+grid-template-columns:25% 25% 25% 25%
+}
+.navBarRightDiv{
+  /* float:left; */
+  display: grid;
+grid-template-columns:25% 25% 2% 24% 24%
+}
+.horizontalLine{
+  height: 80%;
+  background-color: gray;
+  width:1px;
+}
+.navBarButton{
+border: transparent;
+background: transparent;
+width: auto;
+}
