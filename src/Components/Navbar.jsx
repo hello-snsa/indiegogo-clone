@@ -16,14 +16,17 @@ function alertit(){
         </div>
 
         <div className="exploreDiv">
-            <button className="navBarButton" id="explore" onclick="" >Explore<img src="./downArrow.pngs" alt="down Arrow" /></button>
+            <p onClick={""}>Explore<img src="./downArrow.png" alt="down Arrow" /></p>
+            {/* <button className="navBarButton" id="explore" onclick="" >Explore<img src="./downArrow.png" alt="down Arrow" /></button> */}
         </div>
 
         <div className="whatWeDoDiv">
-        <button className="navBarButton" id="whatWeDo" onclick="" >What We Do</button>
+        <p onClick={""}>What We Do</p>
+
+        {/* <button className="navBarButton" id="whatWeDo" onclick="" >What We Do</button> */}
         </div>
         <div className="navBarSearchBar">
-            <img src="./searchIcon.pngs" alt="search Icon" />
+            <img src="./searchIcon.png" alt="search Icon" />
 
         </div>
 
@@ -38,16 +41,16 @@ function alertit(){
 <div className="navBarRightDiv">
 
 <div className="forEntrepreneursDiv">
-<p onClick={alertit}>hello</p>
-    <button className="navBarButton" id="forEntrepreneurs" onclick="">For Entrepreneurs</button>
+<p onClick={alertit}>For Entrepreneurs</p>
+    {/* <button className="navBarButton" id="forEntrepreneurs" onclick="">For Entrepreneurs</button> */}
 
     
 
     </div>
 
 <div className="startACampaignDiv">
-
-    <button className="navBarButton" id="startACampaign" >Start a Campaign</button>
+<p onClick={alertit}>Start a Campaign</p>
+    {/* <button className="navBarButton" id="startACampaign" >Start a Campaign</button> */}
 </div>
 
 
@@ -55,11 +58,14 @@ function alertit(){
 
 <div className="loginDiv">
 
-    <button className="navBarButton" id="login" onclick="">Log In</button>
+<p onClick={""}>Log In</p>
+    {/* <button className="navBarButton" id="login" onclick="">Log In</button> */}
+    
 </div>
 
 <div className="signUpDiv">
-    <button className="navBarButton" id="signUp" onclick="">Sign Up</button>
+<p onClick={""}>Sign Up</p>
+    {/* <button className="navBarButton" id="signUp" onclick="">Sign Up</button> */}
     
     </div>
 

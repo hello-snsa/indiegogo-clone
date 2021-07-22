@@ -1,31 +1,399 @@
+/* ========================Allignments================================= */
+.flex{
+  display:flex;
+justify-content: space-between;
+
+}
+.flex-center{
+  display:flex;
+justify-content: center;
+
+}
+.grid-50{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.mt-10{
+  margin-top: 10%;
+}
+.mleft-5{
+margin-left: 5%;
+}
+.mleft-10{
+  margin-left: 10%;
+  }
+  .mleft-12{
+    margin-left: 12%;
+    }
+.mbottom-5{
+margin-bottom: 5%;
+}
+
+.w-70{
+  width:70%;
+}
+.w-75{
+  width:75%;
+}
+.w-80{
+width: 80%;
+}
+
+/*=============================Colors=================================== */
+.pink{
+  color: #e51075;
+}
+.space{
+  margin-left: 3px;;
+  margin-right: 3px;;
+}
+.margin-top-5{
+  margin-top: 5%;
+}
+.alignLeft{
+text-align: left;
+}
+.tAlign-C{
+  text-align: center;
+}
+.tAlign-L{
+  text-align: left;
+}
+.tAlign-R{
+  text-align: right;
+}
+.min-W-50{
+  min-width: 50%;
+}
+
+
+.p1{
+  padding:1%;
+}
+.pl-1{
+  padding-left: 1%;
+}
+.pr-1{
+  padding-right: 1%;
+}
+
+.p2{
+  padding: 2%;
+}
+.pl-2{
+  padding-left: 2%;
+}
+.pr-2{
+  padding-right: 2%;
+}
+/* ==================================image size======================== */
+
+.iSize img{
+max-width: 5%;
+/* height: 10px; */
+}
+
+.iSize-70 img{
+  max-width: 70%;
+  }
+
+.iSize-80 img{
+max-width: 80%;
+}
+
+  
+
+
+
+/* ===============================NavBar====================== */
 .navBarMainDiv{
-padding: 1%;
-/* display: grid; */
-/* grid-template-columns:50% 50% ; */
+padding-left: 1%;
+padding-right: 1%;
+/* background-color: blueviolet; */
 
 display:flex;
 justify-content: space-between;
 align-items: center;
-}
+font-weight: 600;
 
 
-.navBarLeftDiv{
-  /* float:left; */
-  display: grid;
-grid-template-columns:25% 25% 25% 25%
 }
-.navBarRightDiv{
-  /* float:left; */
-  display: grid;
-grid-template-columns:25% 25% 2% 24% 24%
-}
+
 .horizontalLine{
   height: 80%;
   background-color: gray;
-  width:1px;
+  width:10px;
 }
-.navBarButton{
-border: transparent;
-background: transparent;
-width: auto;
+
+.navBarLeftDiv{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 800px; */
 }
+.navBarLeftDiv p{
+/* margin-left: 2%; */
+padding-left: 2%;
+}
+/* .navBarLeftDiv img{
+  width: 120%;
+  margin-right: 2%;
+} */
+
+
+
+.navBarRightDiv {
+  display:flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.navBarRightDiv p{
+margin-left: 1rem; 
+
+}
+.navBarSearchBar img{
+  width: 1.5rem;
+  /* width: .05rem; */
+}
+
+.companyLogoDiv img{
+  width: 8rem;
+
+}
+.exploreDiv img{
+  width: 0.5rem;
+
+}
+
+
+.carouselImageBoxMainDiv  img{
+  width: 100vw;
+  height: 468px;
+}
+
+.carouselTicketPartMainDiv{
+  width: 40%;
+  /* padding:5%; */
+  /* margin-left: 5%; */
+  padding: 3%;
+  background-color: white;
+  height: 14.5rem;
+  margin-top: -26%;
+  /* display:flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 60%;
+  position: relative;
+}
+
+.carouselTicketPartMainDiv h1{
+  font-family: ff-more-web-pro,serif;
+  font-size: 36px;
+  font-weight: 400;
+ }
+  
+.carouselTicketPartMainDiv p{
+  font-family: benton-sans,Helvetica,"Sans-serif";
+  font-weight: 400;
+  width: 75%;
+
+}
+
+.carouselTicketPartButtonDiv{
+margin-top: 5%;
+}
+
+.carouselTicketPartMainDiv button{
+width: 7.5rem;
+height: 2.5rem;
+display: inline-block;
+cursor: pointer;
+/* border-radius: 2px; */
+color: #fff;
+/* min-width: 112px; */
+/* transition: all .1s cubic-bezier(.16,.8,.45,1); */
+white-space: nowrap;
+font-weight: 700;
+margin-right: 3%;
+}
+
+#signupNowBtn {
+  background-color: #e51075;
+  border: 1px solid #e51075;
+
+}
+#signupNowBtn:hover {
+  background-color: #cf0c67;
+  border-color: #cf0c67;
+
+}
+#learnMoreBtn{
+  color: #e51075;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+
+}
+
+#learnMoreBtn:hover {
+  border-color: #949494;
+  background-color: #fafafa;
+
+}
+
+.homepageCollectionsMainDiv{
+width: 80%;
+background-color: white;
+
+}
+.collectionsImageBox img {
+width:98%;
+/* margin-bottom: 2%; */
+
+}
+
+.hpcbHeading{
+  z-index: 10;
+  margin-top: -48%;
+  margin-left: 15%;
+  color: #fff;
+  font-family: ff-more-web-pro, Georgia, "Serif";
+  letter-spacing: 0;
+  line-height: 1.3;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+/* ===============take ride============================== */
+
+.takeRideImageBox img{
+width: 80%;
+margin-left: 10%;
+}
+
+/*=====================intrest you======================== */
+#iySignupBtn{
+  width:auto;
+  padding:0.8rem;
+  background-color: white;
+  border:solid c8c8c8;
+  border-width:1px ;
+  font-family: benton-sans,Helvetica,"Sans-serif";
+  cursor: pointer;
+  
+
+}
+#iySignupBtn:hover{
+ 
+  background-color:  rgb(250, 250, 250);
+}
+.iyHeaderDiv h1{
+font-family: ff-more-web-pro,serif;
+font-weight: 400;
+}
+/* ==================iyCategory============================= */
+.IyCategoryMainDiv p{
+text-align: center;
+margin-top: -10%;
+color:#2a2a2a;
+font-size: small;
+}
+.iyImageDiv{
+  width:100px;
+  height: 100px;
+  margin-left: 10%;
+  
+}
+
+/*======================Footer===========================*/
+.footerMainDiv{
+  margin-top: 500px;
+  padding:5%;
+  background-color: rgb(245, 245, 245);
+  /* height: fit-content ; */
+
+}
+.footerContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footerUpperPart{
+  display:flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.footerCheckBox{
+  cursor: pointer;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+
+}
+.footerUpperPart4{
+  text-align: center;
+width: 270px;;
+}
+#emailIcon{
+  width:8rem;
+}
+
+.footerUpperPart4HeaderDiv {
+/* width: 70%; */
+text-align: center;
+margin-top: -10%;
+}
+.footerUpperPart4HeaderDiv p{
+  margin-top: -5%;
+
+}
+  
+#footerFormEmail{
+  width: 100%;
+  height:1rem;
+  padding:5%;
+  overflow: visible;
+  font-size: 16px;
+
+}
+#footerFormSubmit{
+padding:2%;
+width:19rem;
+height: 2.5rem;
+background-color: #e51075;
+    border: 1px solid #e51075;
+    color:white;
+    font-weight: 600;
+    margin-top: 5%;
+}
+.footerUpperPart4FormDiv span{
+text-decoration: underline;
+}
+
+.footerMiddlePart{
+width: 33%;
+/* background-color: lime; */
+}
+.footerSocialMediaDiv{
+  padding:2%;
+}
+
+#fmpButton{
+  min-width: 12rem;
+  padding:1%;
+  height: 2.5rem;
+  background-color: white;
+  border:solid 0.5px lightgray;
+  
+}
+
+.footerBottomPart{
+  font-size: small;
+
+}
+.footerLastLine p{
+  margin-left:20px;
+}
+
