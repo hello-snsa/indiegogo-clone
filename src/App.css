@@ -13,23 +13,44 @@ justify-content: center;
 display: grid;
 grid-template-columns: 50% 50%;
 }
-
+.mt-2{
+  margin-top: 2%;
+}
+.mt-5{
+  margin-top: 5%;
+}
 .mt-10{
   margin-top: 10%;
 }
 .mleft-5{
 margin-left: 5%;
 }
-.mleft-10{
+.mleft-10, .ml-10{
   margin-left: 10%;
   }
   .mleft-12{
     margin-left: 12%;
     }
-.mbottom-5{
+
+  .mb-2{
+    margin-bottom: 2%;
+  }
+.mbottom-5, .mb-5{
 margin-bottom: 5%;
 }
+.mr-5{
+  margin-right: 5%;
+}
+.mright-10, .mr-10{
+  margin-right: 10%;
+}
 
+.w-40{
+  max-width:40%;
+}
+.w-60{
+  width: 60%;
+}
 .w-70{
   width:70%;
 }
@@ -40,9 +61,22 @@ margin-bottom: 5%;
 width: 80%;
 }
 
+.w-600{
+  font-weight:600;
+}
+.large{
+  font-size: large;
+}
 /*=============================Colors=================================== */
 .pink{
   color: #e51075;
+}
+.magenta{
+  color:magenta;
+}
+h1{
+  font-family: ff-more-web-pro, Georgia, "Serif";
+  font-weight: 400;
 }
 .space{
   margin-left: 3px;;
@@ -87,6 +121,11 @@ text-align: left;
 .pr-2{
   padding-right: 2%;
 }
+
+.no-border{
+  border: transparent;
+}
+
 /* ==================================image size======================== */
 
 .iSize img{
@@ -241,7 +280,70 @@ margin-right: 3%;
   background-color: #fafafa;
 
 }
+/* ========popular Project=============================== */
+.homepagePopularProjectMainDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  
+}
+.homepagePopularProjectMainDiv hr{
+  background-color: pink;
+  color:pink;
+  border: 0.5px solid lightgrey;
+}
+.hppUpperDiv{
+  /* background-color: blanchedalmond; */
 
+}
+.hppLowerDiv{
+  /* min-width: 100%;
+  max-width: 100%; */
+  
+}
+.popularCardsDiv{
+  /* min-width: 100%;*/
+  /* max-width: 100%;  */
+  /* overflow-x: scroll; */
+  /* overflow-anchor:inherit; */
+}
+
+.popularCardsDiv::-webkit-scrollbar{
+  /* scroll */
+}
+
+
+.hppUpperRight{
+  padding:2%;
+}
+.roundBtn{
+  /* margin-top: 25%;
+  margin-right: 2%; */
+  margin-left: 15px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: large;
+  font-weight: 600;
+
+}
+.percentageBarCover{
+  width: 100%;
+  height:8px;
+  background-color: gray;
+  border-radius: 5px;
+
+}
+.percentageBar {
+width: 60%;
+height:8px;
+background-color: lightseagreen;
+border-radius: 5px;
+}
+
+/*=================homepage Collection===================== */
 .homepageCollectionsMainDiv{
 width: 80%;
 background-color: white;
@@ -306,9 +408,303 @@ font-size: small;
   
 }
 
+/* ===================Homepage review================ */
+.homepageReviewMainDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.hpReviewHeaderDiv{
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.hpReviewHeaderDiv h1{
+  font-family: ff-more-web-pro,serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.hpReviewCardDiv img{
+max-width: 95%;
+cursor:pointer;
+}
+.hpReviewCardDiv h3{
+  font-weight: 400;
+  font-size: medium;
+  
+}
+.hpReviewCardDiv> p{
+  color:gray;
+}
+.readMore{
+  font-weight: 700;
+  color:black;
+  font-size: small;
+  cursor:pointer;
+
+
+}
+.readMore:hover{
+color:magenta;
+}
+/* ==========clever part============================ */
+.cleverThingsMainDiv{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+
+}
+.cleverThingsMainDiv button{
+width:8rem;
+height: 2.5rem;
+margin-left: 2%;
+background-color: #e51075;
+border: 1px solid #e51075;
+color:white;
+font-weight: 600;
+
+}
+.cleverThingsMainDiv img{
+  width: 100%;
+  margin-top: 15%;
+  /* margin-left: 20%; */
+}
+
+#cleverLearnMore{
+background-color: white;
+color:#e51075;
+font-weight:400;
+}
+
+.cleverHeaderDiv h1{
+font-family: ff-more-web-pro,serif;
+font-weight: 400;
+font-size: 30px;
+}
+.cleverHeaderDiv p{
+margin-left: -8%;
+}
+
+/* ===================Popular Cards====================== */
+.popularCardMainDiv{
+  max-width:22%;
+  /* min-width:22%; */
+  width:22%;
+  border: 1px solid lightgray;
+  padding: 2%;
+  padding-top: 0px;
+  margin-right: 20px;
+border-radius: 5px;;
+ 
+}
+.popularCardMainDiv img{
+height: 20rem;
+}
+.popularCardMainDiv h2{
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 16px;
+  font-weight: 600;
+}
+.popularCardMainDiv h3{
+  top:0;
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 600;
+  color: #088366;
+}
+
+.popularCardMainDiv p{
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 11px;
+  /* line-height: 14px; */
+  /* line-height: 11px; */
+  color: #6a6a6a;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+
+
+}
+
+
+
+.homepagePopularProjectMainDiv> hr{
+  color:lightgray;
+  width: 98%;
+  margin-right: 1.5%;
+  margin-bottom: 2%;
+}
+
+.pCardImageDiv img{
+width: 100%;
+margin-top: 10%;
+}
+
+.price{
+  font-weight: 600;
+  font-size: medium;
+  color:black;
+}
+
+.popularCardMainDiv:hover{
+ box-shadow: lightgray;
+ cursor: pointer;
+ 
+}
+/* ===============================Donartion Page=================================== */
+.donationPageMainDiv{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+
+
+}
+.donationBtn button{
+  background-color: magenta;
+  border:magenta;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height:2.5rem;
+  color:white;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.donationBtn button:hover{
+  width:90%;
+  height: 3rem;
+  margin-left: 5%; 
+  margin-top: 8%;
+   margin-bottom: 2%;
+
+}
+.donationPageLeftSideDiv{
+  width: 60%;
+  background-color: gray;
+
+}
+.dpVideoDiv{
+  width:100%;
+  background-color: indianred;
+  height:100%
+}
+.dpVideoDiv iframe{
+min-width:100%;
+max-width:100%;
+height: 100%;
+}
+
+/* =================Donation Payment==================== */
+
+.donationPaymentMainDiv{
+margin-left: 17%;
+/* margin-right: 12%; */
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.donationPaymentLeftDiv{
+width: 50%;
+}
+.dpageLeftHeader h3{
+color:gray;
+font-weight:400;
+font-size: 16px;;
+}
+  .dpageLeftHeader h1{
+    
+    font-family:  benton-sans,Helvetica,"Sans-serif";
+
+}
+#backBtn{
+  cursor: pointer;
+  border:transparent;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#backBtn:hover{
+color:#e51075;
+
+}
+.box{
+border:1px solid gray
+}
+.smallBox input{
+width:30px;
+border: transparent;
+margin: 0px;
+text-decoration: none;
+
+}
+
+.donationFormbox{
+  border:1px solid gray;
+  border-radius: 2px;;
+  padding: 5%;
+  font-size: large;
+  font-weight: 600;
+  width: 95%;
+  
+}
+#inputName{
+  width:100%;
+  height:2rem;
+  padding: 2%;
+  font-size: 16px;
+  /* margin-right: 100px;; */
+  
+}
+.inputBox{
+  width:95%;
+  height:2rem;
+  padding: 2%;
+  font-size: 16px;
+}
+
+.inputBox:focus-within{
+   
+  outline:1px solid black;
+}
+
+.inputBox input{
+  text-decoration: none;
+  outline: none;
+}
+
+.checkBox{
+  width:1.5rem;
+  height: 1.5rem;
+  margin-right: 2%;
+ /* margin-top: -20%; */
+
+}
+#rememberCard{
+  font-size: 16px;
+  color:gray;
+  font-weight:400;
+}
+
+
+#securePayment{
+margin-bottom: 3%;
+font-weight: 600;
+font-size: large;
+}
+
+.donationPaymentRightDiv{
+  background-color: rgb(250, 250, 250);
+  min-width: 40%;
+  max-width: 50%;
+  margin-left: 8%;
+  margin-right: 10%;
+}
 /*======================Footer===========================*/
 .footerMainDiv{
-  margin-top: 500px;
+  /* margin-top: 500px; */
   padding:5%;
   background-color: rgb(245, 245, 245);
   /* height: fit-content ; */

@@ -9,6 +9,11 @@ import Footer from './Components/Footer';
 import HomepageCollections from './Components/HomepageCollections';
 import TakeRide from './Components/TakeRide';
 import IntrestYou from './Components/IntrestYou';
+import CleverThings from './Components/CleverThings';
+import HomepageReview from './Components/HomepageReview';
+import HomepagePopularProject from './Components/PopularProject';
+import DonationPage from './Components/DonationPage';
+import DonationPayment from './Components/DonationPayment';
 
 function App() {
   return (
@@ -20,10 +25,19 @@ function App() {
 
 <CarouselImageBox />
 <CarouselTicketPart />
+<HomepagePopularProject />
 <HomepageCollections />
 
 <TakeRide />
 <IntrestYou />
+
+<HomepageReview />
+
+<CleverThings />
+
+<DonationPage data="" />
+
+<DonationPayment />
 
 <Footer />
 
