@@ -81,6 +81,7 @@ h1{
 .space{
   margin-left: 3px;;
   margin-right: 3px;;
+  cursor: pointer;
 }
 .margin-top-5{
   margin-top: 5%;
@@ -141,7 +142,13 @@ max-width: 5%;
 max-width: 80%;
 }
 
-  
+button{
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
+
+}
 
 
 
@@ -446,6 +453,26 @@ cursor:pointer;
 .readMore:hover{
 color:magenta;
 }
+
+.hprc1ImageDiv img{
+  max-width:380px;
+  max-height:253px;
+}
+.hpriHeaderDiv>p{
+  color:gray;
+  /* color:red; */
+  }
+  .bold:last-child{
+    color:black;
+  }
+  .bold:hover{
+    color:#e51075;
+  }
+#review3{
+  margin-left: 2.2%;
+  }
+
+
 /* ==========clever part============================ */
 .cleverThingsMainDiv{
   margin-left: 10%;
@@ -559,8 +586,8 @@ margin-top: 10%;
 
 }
 .donationBtn button{
-  background-color: magenta;
-  border:magenta;
+  background-color: #e51075;
+  border:#e51075;
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
@@ -603,9 +630,12 @@ margin-left: 17%;
 margin-top: 5%;
 margin-bottom: 5%;
 }
+.donationPaymentMainDiv hr{
+  border:solid 0.01rem lightgray;
+}
 
 .donationPaymentLeftDiv{
-width: 50%;
+min-width: 45%;
 }
 .dpageLeftHeader h3{
 color:gray;
@@ -697,11 +727,117 @@ font-size: large;
 
 .donationPaymentRightDiv{
   background-color: rgb(250, 250, 250);
-  min-width: 40%;
-  max-width: 50%;
+ width: 40%;
+  /* max-width: 50%; */
   margin-left: 8%;
   margin-right: 10%;
+  padding:5%;
 }
+
+.amountInputBox{
+  min-width: 60%;
+  height: 2.8rem;
+  border:1px solid lightgray;
+  background-color: white;
+  outline: white;
+  margin-bottom: 5%;
+}
+.amountInputBox:focus-within{
+  border: 1px solid black;
+}
+.amountInputBox{
+
+}
+#USD{
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 2%;
+  color:gray;
+}
+#amountSymbol{
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: large;
+  color:gray;
+}
+.amountSummary{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.subTotal{
+color:gray;
+}
+.amount, .totalAmount{
+  color:black;
+  font-weight: 600;
+}
+.total{
+  color:black;
+  font-weight: 700;
+  font-size:x-large;
+
+}
+
+.amountInputBox input{
+  /* min-width: 60%;
+  height: 2.5rem; */
+  border: transparent;
+  text-decoration: none;
+  outline:none;
+  padding:2%;
+  font-size: 20px;;
+  font-weight: 600;
+}
+#footerFormSubmits{
+  padding:2%;
+  width:20rem;
+  height: 2.8rem;
+  background-color: #e51075;
+      border: 1px solid #e51075;
+      color:white;
+      font-weight: 600;
+      margin-top: 10%;
+      margin-left: 7%;
+      border-radius: 50px;;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  /* ===========Thank you========================= */
+  .thankYouMainDiv{
+
+margin: 10%;
+text-align: center;
+
+  }
+  .thankYouMainDiv h1{
+    font-weight: 600;
+    font-size: 36px;
+
+  }
+#trxn{
+  color:#e51075;
+  font-size: 22px;
+
+  }
+  #mail{
+    color:navy;
+    cursor: pointer;
+  }
+  #backToHome{
+    /* padding-top:2%; */
+    width:20rem;
+    height: 2.8rem;
+    background-color: #e51075;
+    border: 1px solid #e51075;
+    color:white;
+    font-weight: 600;
+    margin-top: 10%;
+    /* margin-left: 7%; */
+    border-radius: 50px;;
+    font-size: 16px;
+    cursor:pointer;
+    }
 /*======================Footer===========================*/
 .footerMainDiv{
   /* margin-top: 500px; */
@@ -719,7 +855,9 @@ font-size: large;
   justify-content: space-between;
   /* align-items: center; */
 }
-
+.footerUpperPartHeading{
+  font-weight: 600;
+}
 .footerCheckBox{
   cursor: pointer;
   min-width: 20px;
@@ -763,6 +901,7 @@ background-color: #e51075;
     color:white;
     font-weight: 600;
     margin-top: 5%;
+    cursor: pointer;
 }
 .footerUpperPart4FormDiv span{
 text-decoration: underline;
@@ -774,6 +913,17 @@ width: 33%;
 }
 .footerSocialMediaDiv{
   padding:2%;
+  /* background-color: #e51075; */
+  width: 100%;
+  padding-bottom: 8%;
+}
+.footerSocialMediaDiv div{
+  max-width:20px;
+  margin-left: 2%;
+}
+.footerSocialMediaDiv img{
+  max-width:20px;
+  margin-left: 2%;
 }
 
 #fmpButton{
@@ -788,6 +938,10 @@ width: 33%;
 .footerBottomPart{
   font-size: small;
 
+}
+.footerBottomPart img{
+  width:50%;
+  margin-top: 5%;
 }
 .footerLastLine p{
   margin-left:20px;
