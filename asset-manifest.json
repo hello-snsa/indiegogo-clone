@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/indiegogo-clone/static/css/main.47c99f0e.chunk.css",
+    "main.js": "/indiegogo-clone/static/js/main.66d0ef09.chunk.js",
+    "main.js.map": "/indiegogo-clone/static/js/main.66d0ef09.chunk.js.map",
+    "runtime-main.js": "/indiegogo-clone/static/js/runtime-main.99f093b7.js",
+    "runtime-main.js.map": "/indiegogo-clone/static/js/runtime-main.99f093b7.js.map",
+    "static/js/2.aba83527.chunk.js": "/indiegogo-clone/static/js/2.aba83527.chunk.js",
+    "static/js/2.aba83527.chunk.js.map": "/indiegogo-clone/static/js/2.aba83527.chunk.js.map",
+    "static/js/3.93bad2f9.chunk.js": "/indiegogo-clone/static/js/3.93bad2f9.chunk.js",
+    "static/js/3.93bad2f9.chunk.js.map": "/indiegogo-clone/static/js/3.93bad2f9.chunk.js.map",
+    "index.html": "/indiegogo-clone/index.html",
+    "static/css/main.47c99f0e.chunk.css.map": "/indiegogo-clone/static/css/main.47c99f0e.chunk.css.map",
+    "static/js/2.aba83527.chunk.js.LICENSE.txt": "/indiegogo-clone/static/js/2.aba83527.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99f093b7.js",
+    "static/js/2.aba83527.chunk.js",
+    "static/css/main.47c99f0e.chunk.css",
+    "static/js/main.66d0ef09.chunk.js"
+  ]
+}
