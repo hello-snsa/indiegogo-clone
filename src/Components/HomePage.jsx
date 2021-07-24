@@ -20,7 +20,7 @@ export default function HomePage() {
 
 <div className="mainDiv">
 
-<Navbar />
+{/* <Navbar /> */}
 
 <CarouselImageBox />
 <CarouselTicketPart />
@@ -36,7 +36,7 @@ export default function HomePage() {
 
 
 
-<Footer />
+{/* <Footer /> */}
 
 </div>{/* MainDiv */}
     </>
