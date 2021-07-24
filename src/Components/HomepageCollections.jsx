@@ -15,7 +15,7 @@ export default function HomepageCollections(){
 
         <div className="collectionsBox1">
             <div className="HCBoxImage">
-                <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1625186032/bttqhdrv08peuwvzqwrv.jpg" alt="image" />
+                <img src="./collection1.png" alt="image" />
             
             </div> 
             <div className="flex mbottom-5 pl-1 pr-1">
@@ -24,9 +24,7 @@ export default function HomepageCollections(){
                 </div>
             </div>
 
-            <div className="hpcbHeading">
-          10 Cool &amp; Clever Finds
-        </div>
+          
 
             </div>
 
@@ -34,7 +32,7 @@ export default function HomepageCollections(){
 
         <div className="collectionsBox2">
         <div className="HCBoxImage">
-                <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1625186032/bttqhdrv08peuwvzqwrv.jpg" alt="image" />
+                <img src="./collection2.png" alt="image" />
             </div> 
             <div className="flex mbottom-5 pl-1 pr-1">
                 <div className="min-W-50" >Our roundup of standout projects</div>
@@ -49,7 +47,7 @@ export default function HomepageCollections(){
 
         <div className="collectionsBox3">
         <div className="HCBoxImage">
-                <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1625186032/bttqhdrv08peuwvzqwrv.jpg" alt="image" />
+                <img src="./collection3.png" alt="image" />
             </div> 
             <div className="flex mbottom-5 pl-1 pr-1">
                 <div className="min-W-50" >Our roundup of standout projects</div>
@@ -61,7 +59,7 @@ export default function HomepageCollections(){
 
         <div className="collectionsBox4">
         <div className="HCBoxImage">
-                <img src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1625186032/bttqhdrv08peuwvzqwrv.jpg" alt="image" />
+                <img src="./collection4.png" alt="image" />
             </div> 
             <div className="flex mbottom-5 pl-1 pr-1">
                 <div className="min-W-50" >Our roundup of standout projects</div>
