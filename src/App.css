@@ -577,13 +577,12 @@ margin-top: 10%;
  cursor: pointer;
  
 }
-/* ===============================Donartion Page=================================== */
+/* ===============================Donation Page=================================== */
 .donationPageMainDiv{
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 50px;
+  height: 450px;
   
-
-
 }
 .donationBtn button{
   background-color: #e51075;
@@ -608,18 +607,18 @@ margin-top: 10%;
 }
 .donationPageLeftSideDiv{
   width: 60%;
-  background-color: gray;
+  /* background-color: gray; */
 
 }
 .dpVideoDiv{
   width:100%;
-  background-color: indianred;
+  /* background-color: indianred; */
   height:100%
 }
 .dpVideoDiv iframe{
-min-width:100%;
-max-width:100%;
-height: 100%;
+min-width:620px;
+/* max-width:100%; */
+height: 425px;
 }
 
 /* =================Donation Payment==================== */
@@ -801,6 +800,11 @@ color:gray;
       border-radius: 50px;;
       font-size: 16px;
       cursor: pointer;
+  }
+  #securePayment img{
+    width:25px;
+    margin-left: 2%;
+    
   }
 
   /* ===========Thank you========================= */
