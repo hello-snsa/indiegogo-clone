@@ -9,7 +9,7 @@ export default function HomepageCollections(){
         return(
             <>
         
-        <div className="homepageCollectionsMainDiv mleft-10 mt-10">
+        <div className="homepageCollectionsMainDiv mleft-10 mt-5">
 
         <div className="collectionsImageBox grid-50">
 
