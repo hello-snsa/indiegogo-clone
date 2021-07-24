@@ -1,6 +1,10 @@
+import { useState } from "react";
 
 export default function DonationPayment(){
     let leftArrowHead="<";
+
+    let {amount,setAmount}=useState(10);
+    let {total,setTotal}=useState(0);
 
     return(
         <>
@@ -59,8 +63,41 @@ export default function DonationPayment(){
         </div>
         <div className="rightForm">
             <p>Your contribution</p>
-            <input type="text"></input>
+            <div className="amountInputBox flex">
+            {/* <p>$</p> */}
+        <span id="amountSymbol">$</span>  <input type="text" ></input>  
+        <span id="USD">USD</span>
+            </div>
         </div>
+        <hr></hr>
+
+        <div className="amountSummary flex">
+            <div className="subTotal">Subtotal</div>
+            <div className="amount">${amount} USD</div>
+            </div>
+        <div className="amountSummary flex">
+            <div className="subTotal">Indiegogo Fee</div>
+            <div className="amount">$10 USD</div>
+            </div>
+        <div className="amountSummary flex">
+            <div className="total">TOTAL</div>
+            <div className="totalAmount">${total} USD</div>
+
+        </div>
+
+        {/*  */}
+        
+<div className="flex margin-top-5 alignLeft">
+    <div>
+                    <input type="checkBox" className="footerCheckBox" />
+                    </div>
+                    <div>I agree to the <b> <span className="pink space"> Terms of Use </span> </b>and have read and understand the <b><span className="pink space"> Privacy Policy.</span></b>
+                    </div>
+</div>
+<div>
+                    <button id="footerFormSubmits">SUBMIT PAYMENT</button>
+                    </div>
+               {/*  */}
 
 
 
