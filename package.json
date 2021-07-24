@@ -1,4 +1,6 @@
-{"homepage": "http://hello-snsa.github.io/indiegogo-clone",
+{
+  "homepage": "https://hello-snsa.github.io/indiegogo-clone/",
+  
   "name": "indiegogo",
   "version": "0.1.0",
   "private": true,
