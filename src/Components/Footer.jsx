@@ -83,11 +83,11 @@ export default function Footer(){
         </div>
 
         <div className="footerSocialMediaDiv flex">
-            <div id="footerFacebookIcon"><img src="./facebookIcon" alt="icon" /></div>
-            <div id="footerTwitterIcon"><img src="./twitterIcon." alt="icon" /></div>
-            <div id="footerYoutubeIcon"><img src="./" alt="icon" /></div>
-            <div id="footerInstagramIcon"><img src="" alt="icon" /></div>
-            <div id="footerLinkdinIcon"><img src="" alt="icon" /></div>
+            <div id="footerFacebookIcon"><img src="./fbIcon.png" alt="icon" /></div>
+            <div id="footerTwitterIcon"><img src="./twitterIcon.png" alt="icon" /></div>
+            <div id="footerYoutubeIcon"><img src="./youtubeIcon.png" alt="youtube Icon" /></div>
+            <div id="footerInstagramIcon"><img src="./igIcon.png" alt="icon" /></div>
+            <div id="footerLinkdinIcon"><img src="./inIcon.png" alt="icon" /></div>
         
         </div>
 
