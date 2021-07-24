@@ -1,10 +1,35 @@
+import React from "react";
 import { useState } from "react";
 
 export default function DonationPayment(){
     let leftArrowHead="<";
+    var isChecked=false;
 
-    let {amount,setAmount}=useState(10);
-    let {total,setTotal}=useState(0);
+    let [amount,setAmount]=React.useState(0);
+    let [fee,setFee]=React.useState(0);
+    let [total,setTotal]=React.useState(0);
+
+    const handleIt=(value)=>{
+        console.log("value ",value)
+        setAmount(Number(value));
+        let per=Number(value)*0.05;
+        // setTotal(Number(value)+10);
+        setFee(per);
+        setTotal(Number(value)+per);
+
+    }
+    const checkIt=()=>{
+        isChecked=true;
+    }
+    const payment=()=>{
+        if(isChecked==true)
+        {
+            window.location.href="https://www.google.com"
+        }
+        else{
+            alert("accept the Term & Condition to proceed further.")
+        }
+    }
 
     return(
         <>
@@ -65,7 +90,7 @@ export default function DonationPayment(){
             <p>Your contribution</p>
             <div className="amountInputBox flex">
             {/* <p>$</p> */}
-        <span id="amountSymbol">$</span>  <input type="text" ></input>  
+        <span id="amountSymbol">$</span>  <input type="text" onChange={(e)=>handleIt(e.target.value)}></input>  
         <span id="USD">USD</span>
             </div>
         </div>
@@ -77,7 +102,7 @@ export default function DonationPayment(){
             </div>
         <div className="amountSummary flex">
             <div className="subTotal">Indiegogo Fee</div>
-            <div className="amount">$10 USD</div>
+            <div className="amount">${fee} USD</div>
             </div>
         <div className="amountSummary flex">
             <div className="total">TOTAL</div>
@@ -89,13 +114,13 @@ export default function DonationPayment(){
         
 <div className="flex margin-top-5 alignLeft">
     <div>
-                    <input type="checkBox" className="footerCheckBox" />
+                    <input type="checkBox" className="footerCheckBox" onClick={()=>checkIt()} />
                     </div>
                     <div>I agree to the <b> <span className="pink space"> Terms of Use </span> </b>and have read and understand the <b><span className="pink space"> Privacy Policy.</span></b>
                     </div>
 </div>
 <div>
-                    <button id="footerFormSubmits">SUBMIT PAYMENT</button>
+                    <button id="footerFormSubmits" onClick={()=>payment()}>SUBMIT PAYMENT</button>
                     </div>
                {/*  */}
 
