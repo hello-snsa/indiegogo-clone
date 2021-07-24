@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function DonationPage(data){
    
@@ -17,7 +18,7 @@ export default function DonationPage(data){
         "DaysLeft":["30 days left","28 days left","16 days left","13 days left"],
         "Link":["https://www.indiegogo.com/projects/shi-omnibus-edition-vol-1-indiegogo-exclusive/x/27211303#/","","",""],
 
-        "Url":["https://www.youtube.com/embed/GvJraVSeMOE","","",""]
+        "Url":["https://www.youtube.com/embed/GvJraVSeMOE","https://www.youtube.com/embed/HB8aW6lpS3I","https://www.youtube.com/embed/Ie6-UJhthG4","https://www.youtube.com/embed/9t_w05cYWnU"]
 
     }
     console.log("url ",props);
@@ -32,7 +33,7 @@ export default function DonationPage(data){
         <div className="donationPageLeftSideDiv ">
             <div className="dpVideoDiv ">
 
-            <iframe  src={props.Url[0]} title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+            <iframe  src={props.Url[index]} title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
 
             </div>
         
@@ -62,7 +63,7 @@ export default function DonationPage(data){
            <p>{props.DaysLeft[index]}</p> 
            </div>
            <div className="donationBtn">
-           <button >BACK IT</button>
+           <Link to="/donationpayment">    <button >BACK IT</button> </Link>
 
            </div>
 

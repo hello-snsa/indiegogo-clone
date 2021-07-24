@@ -1,0 +1,57 @@
+.upperdiv {
+    width: 99vw;
+    height: 34px;
+    color: rgb(250, 22, 129);
+    background-color: rgb(245, 245, 245);
+    padding: 5px;
+    border-bottom: 1px solid rgb(190, 162, 162);
+  }
+  .upperdiv button {
+    color: rgb(250, 22, 129);
+    font-weight: bolder;
+    background-color: rgb(245, 245, 245);
+    float: right;
+  }
+  .parentdiv {
+    width: 99vw;
+    height: 60px;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+  }
+  img {
+    width: 259px;
+    height: 22px;
+    margin-right: 20px;
+  }
+  button {
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  button:hover {
+    color: rgb(250, 22, 129);
+  }
+  i {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  i:hover {
+    color: rgb(250, 22, 129);
+  }
+  .innerdiv {
+    float: right;
+  }
+  .exploreDiv {
+    width: 99%;
+    height: 400px;
+    z-index: 100;
+    display: block;
+    position: absolute;
+    top: 100px;
+  }

@@ -2,7 +2,7 @@
 export default function Navbar(){
 
 function alertit(){
-    alert("'heelo'")
+    // alert("'heelo'")
 }
     return(
         <>

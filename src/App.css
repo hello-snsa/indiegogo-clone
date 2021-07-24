@@ -1,3 +1,14 @@
+/*=========================Main page=============================== */
+.mainDiv{
+margin:0px;
+top:0;
+max-width: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+
+
 /* ========================Allignments================================= */
 .flex{
   display:flex;
@@ -67,12 +78,20 @@ width: 80%;
 .large{
   font-size: large;
 }
-/*=============================Colors=================================== */
+/*=====================Colors & Decorations========================== */
 .pink{
   color: #e51075;
 }
 .magenta{
   color:magenta;
+}
+Link{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+
 }
 h1{
   font-family: ff-more-web-pro, Georgia, "Serif";
@@ -162,6 +181,7 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 font-weight: 600;
+max-width: 100vw;
 
 
 }
@@ -212,10 +232,12 @@ margin-left: 1rem;
   width: 0.5rem;
 
 }
-
+.carouselImageBoxMainDiv{
+  max-width: 98.9vw;
+}
 
 .carouselImageBoxMainDiv  img{
-  width: 100vw;
+  max-width: 98.9vw;
   height: 468px;
 }
 

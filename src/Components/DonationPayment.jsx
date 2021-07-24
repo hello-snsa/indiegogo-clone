@@ -1,13 +1,21 @@
 import React from "react";
 import { useState } from "react";
+import { Link, Redirect } from "react-router-dom";
+import ThankYou from "./ThankYou";
+
 
 export default function DonationPayment(){
     let leftArrowHead="<";
-    var isChecked=false;
+    // let isChecked=false;
+    
+   
 
     let [amount,setAmount]=React.useState(0);
     let [fee,setFee]=React.useState(0);
     let [total,setTotal]=React.useState(0);
+
+    let [reUrl,setReUrl]=React.useState();
+    let [isChecked,setIsChecked]=React.useState(false);
 
     const handleIt=(value)=>{
         console.log("value ",value)
@@ -18,21 +26,27 @@ export default function DonationPayment(){
         setTotal(Number(value)+per);
 
     }
+ 
+
     const checkIt=()=>{
-        isChecked=true;
+        
+        setIsChecked(true);
+        setReUrl("/thankyou")
+        
     }
     const payment=()=>{
-        if(isChecked==true)
-        {
-            window.location.href="https://www.google.com"
-        }
-        else{
+        
+        if(!isChecked)
+        { 
+           
             alert("accept the Term & Condition to proceed further.")
+      
         }
     }
 
     return(
         <>
+       
         <div className="donationPaymentMainDiv flex">
 
         <div className="donationPaymentLeftDiv">
@@ -53,7 +67,7 @@ export default function DonationPayment(){
         <div className="donationFormbox ">
     <div>
         <div className="mb-2">Name on Card <span className="pink w-600 large">*</span></div>
-        <div className="mr-5"><input type="text"id="inputName"></input></div>
+        <div className="mr-5 "><input type="text"id="inputName" placeholder="Full Name"></input></div>
     </div>
 
         <div>
@@ -114,15 +128,20 @@ export default function DonationPayment(){
         
 <div className="flex margin-top-5 alignLeft">
     <div>
-                    <input type="checkBox" className="footerCheckBox" onClick={()=>checkIt()} />
+                    <input type="checkBox" className="footerCheckBox"  onClick={()=>checkIt()} />
+                    {/* <input type="checkBox" className="footerCheckBox"  onClick={()=>checkIt()} /> */}
                     </div>
                     <div>I agree to the <b> <span className="pink space"> Terms of Use </span> </b>and have read and understand the <b><span className="pink space"> Privacy Policy.</span></b>
                     </div>
 </div>
 <div>
-                    <button id="footerFormSubmits" onClick={()=>payment()}>SUBMIT PAYMENT</button>
+
+<Link to={reUrl}> 
+<button id="footerFormSubmits" onClick={()=>payment()}> SUBMIT PAYMENT </button>
+</Link>
                     </div>
                {/*  */}
+               {/* */}
 
 
 
