@@ -47,7 +47,7 @@ export default function HomepageCollections(){
 
         <div className="collectionsBox3">
         <div className="HCBoxImage">
-                <img src="./collection3.png" alt="image" />
+                <img src="./collection3.png" alt="image" id="collection3"/>
             </div> 
             <div className="flex mbottom-5 pl-1 pr-1">
                 <div className="min-W-50" >Our roundup of standout projects</div>
