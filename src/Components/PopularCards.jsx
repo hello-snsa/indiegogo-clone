@@ -11,7 +11,7 @@ export default function PopularCards({props,index}){
   
     
     <div className="popularCardMainDiv">
-    <Link to="/donationpage" >
+    <Link to="/donationpage" ind={index} >
         <div className="popularCardContainer" >
             <div className="pCardImageDiv">
                

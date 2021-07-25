@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
-export default function DonationPage(data){
+export default function DonationPage(ind){
    
     let props={
         
@@ -22,12 +24,14 @@ export default function DonationPage(data){
 
     }
     console.log("url ",props);
+    // console.log("ind ",ind.target.value)
     let index=0;
 
 
     return(
 
         <>
+        <Navbar />
         <div className="donationPageMainDiv flex-center ml-10 mr-10 ">
         
         <div className="donationPageLeftSideDiv ">
@@ -78,6 +82,7 @@ export default function DonationPage(data){
         
         
         </div>
+        <Footer />
         </>
         )
 }

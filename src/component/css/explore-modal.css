@@ -1,0 +1,81 @@
+.modalBackground1 {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modalContainer1 {
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.explore-div1 {
+  width: 100%;
+  height: 40%;
+}
+
+.explore-div2 {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(245, 245, 245);
+}
+
+.explore-div1-div1 {
+  width: 55%;
+  height: 100%;
+  padding: 20px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 40% 15% 15% 15% 15%;
+  grid-gap: 3%;
+}
+.explore-div1-div1-div {
+  display: flex;
+  flex-direction: column;
+}
+.explore-image {
+  width: 100%;
+  height: 110px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.explore-div1-div1-div h9 {
+  font-size: 11px;
+  font-weight: bolder;
+}
+.explore-div2-div {
+  width: 55%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+}
+.explore-innerdiv {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.explore-innerdiv h4 {
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+.explore-innerdiv h9 {
+  padding: 3px;
+  font-size: 13px;
+}
+.explore-innerdiv h9:hover {
+  border-bottom: 1px solid black;
+  width: 100px;
+  cursor: pointer;
+}

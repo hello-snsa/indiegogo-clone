@@ -1,0 +1,379 @@
+.mainDiv {
+  margin-top: 50px;
+  text-align: center;
+}
+.heading {
+  font-weight: 600;
+  margin-top: 40px;
+  font-family: ff-more-web-pro, Georgia, "Serif";
+}
+.heading2 {
+  font-weight: 200;
+  font-size: 20px;
+  font-family: ff-more-web-pro, Georgia, "Serif";
+}
+.projectDiv {
+  display: inline-block;
+  border: 1px solid #c8c8c8;
+  width: 43%;
+  padding: 1rem 0.75rem;
+
+  border-radius: 2px;
+  margin: 1rem;
+  text-decoration: none;
+  color: #2a2a2a;
+  text-align: center;
+}
+.Qmark {
+  width: 20px;
+  height: 20px;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  color: white;
+  margin-top: -2px;
+  margin-left: 8px;
+}
+.mainDiv2 {
+  width: 70%;
+  margin: auto;
+}
+.projectDiv:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* A_project page */
+.ProtopDiv {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.ProtopDiv > h2 {
+  font-weight: 550;
+  margin-top: 20px;
+}
+.ProtopDiv > h3 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.PromiddleDiv {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+.PromiddleDiv label {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.ProbottomDiv {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+.mainModel {
+  width: 100%;
+  border: 1px solid black;
+  height: 40px;
+  cursor: pointer;
+}
+.mainModel1 {
+  width: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.mainModel1 div {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.Probottom1Div {
+  width: 50%;
+
+  text-align: left;
+  margin-top: 50px;
+}
+.Probottom2Div {
+  margin: auto;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 50px;
+  /* height:40px; */
+}
+.Probottom2Div p{
+/* color:red; */
+/* margin-top: -2rem; */
+}
+.Probottom22Div {
+  width: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.Probottom22Div > div {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.Probottom23Div {
+  margin: auto;
+  width: 100%;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Basic Css */
+.BasicLeftMainDiv {
+  width: 15%;
+  height: 1000;
+  background-color: #2a2a2a;
+  padding-top: 50px;
+}
+.BasicLeftMainDiv > div {
+  color: white;
+  width: 95%;
+  height: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+}
+.BasicLeftMainDivChild2ndDiv:hover {
+  background-color: #7a69b3;
+}
+.BasicLeftMainDivChild3rdDiv:hover {
+  background-color: #7a69b3;
+}
+.BasicLeftMainDivChild4rthDiv:hover {
+  background-color: #7a69b3;
+}
+.BasicLeftMainDivChild5thDiv:hover {
+  background-color: #7a69b3;
+}
+
+.BasicLeftMainDiv > div:nth-child(1) {
+  margin-bottom: 50px;
+}
+.BasicLeftMainDivChild4rthDivExtend {
+  background-color: black;
+}
+.BasicLeftMainDivChild4rthDivExtend > div {
+  color: white;
+  width: 95%;
+  height: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+.BasicLeftMainDivChild4rthDivExtend > div:hover {
+  background-color: #7a69b3;
+}
+.BasicLeftMainDivChild5thDivExtend {
+  background-color: black;
+}
+.BasicLeftMainDivChild5thDivExtend > div {
+  color: white;
+  width: 95%;
+  height: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+.BasicLeftMainDivChild5thDivExtend > div:hover {
+  background-color: #7a69b3;
+}
+.BasicRightMainDiv {
+  width: 84%;
+
+  height: 100vh;
+
+  background-color: #fafafa;
+}
+.BasicMainDiv {
+  display: flex;
+  width: 100%;
+  margin-bottom: -100px;
+  background-color: #fafafa;
+}
+.BasicRightMainDiv1stDiv {
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: -23px;
+  display: flex;
+  position: fixed;
+  top: 117px;
+  background-color: #f5f5f5;
+}
+
+.BasicRightMainDiv1stDivinnerDiv1 {
+  color: #7a69b3;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 10px;
+  height: 15px;
+  height: 35px;
+  margin-left: 48%;
+}
+.BasicRightMainDiv1stDivinnerDiv2 {
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  height: 15px;
+  background-color: #7a69b3;
+  color: white;
+  height: 35px;
+
+  margin-left: 1.5%;
+}
+.BasicRightMainDiv1stDivinnerDiv1:hover {
+  background-color: violet;
+}
+.BasicRightMainDiv2ndDiv {
+  width: 60%;
+  background-color: #fafafa;
+  margin-left: -1050px;
+  text-align: left;
+  margin-top: 10%;
+}
+.BasicRightMainDiv2ndDiv > h4 {
+  font-weight: 500;
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  line-height: 24px;
+}
+.BasicRightMainDiv2ndDiv > h5 {
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #6a6a6a;
+
+  margin-bottom: 5px;
+}
+.BasicRightMainDiv2ndDiv > input {
+  margin-bottom: 5%;
+}
+.Basic2RightMainDiv2ndDiv {
+  width: 60%;
+  background-color: #fafafa;
+  margin-left: 2%;
+  text-align: left;
+  margin-top: 10%;
+  margin-left: -1050px;
+}
+.Flexibal {
+  width: 20%;
+  height: 30px;
+}
+.Fixed {
+  width: 20%;
+  height: 30px;
+}
+.Basic2RightMainDiv2ndDiv > h2 {
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: 500;
+  margin-bottom: -5px;
+}
+.Basic2RightMainDiv2ndDiv > h4 {
+  font-family: "benton-sans", "Helvetica", "sans-serif";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.Basic2RightMainDiv2ndDiv > input {
+  margin-top: -8px;
+}
+.Basic2RightMainDiv2ndDiv > h5 {
+  color: #816a81;
+  font-weight: 400;
+}
+.startbtncolor {
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 35%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  cursor: pointer;
+  background-color: #e51075;;
+  border-radius: 5px;;
+  border: 1px solid #e51075;;
+}
+.Basic2RightMainDiv2ndDiv span {
+  color: red;
+}
+.BasicRightMainDiv2ndDiv span {
+  color: red;
+}
+.model {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modelContaint {
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  margin-left: 30%;
+  text-align: center;
+  padding-top: 20px;
+}
+.backToHomeBtn {
+  width: 35%;
+  height: 10%;
+  background-color: gray;
+  border-radius: 10%;
+  font-weight: 600;
+  color: white;
+}
+.backToHomeBtn:hover {
+  background-color: #7a69b3;
+}
+.modelContaint h1 {
+  font-weight: 600;
+  margin-top: 50px;
+}
+.backToHomeBtn {
+  border-radius: 5px;
+  
+}
+.label{
+  margin-left: -10rem;
+}
+.PromiddleDiv h4{
+  margin-bottom: 2%;
+  margin-top: 12%;
+}
+.PromiddleDiv label{
+  margin-left: -1%;
+  /* padding-bottom: -20%; */
+  margin-top: -20%;
+  font-weight:600;
+
+}
+

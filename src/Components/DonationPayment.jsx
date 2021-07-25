@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Link, Redirect } from "react-router-dom";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 import ThankYou from "./ThankYou";
 
 
@@ -46,7 +48,7 @@ export default function DonationPayment(){
 
     return(
         <>
-       
+       <Navbar />
         <div className="donationPaymentMainDiv flex">
 
         <div className="donationPaymentLeftDiv">
@@ -129,9 +131,9 @@ export default function DonationPayment(){
 <div className="flex margin-top-5 alignLeft">
     <div>
                     <input type="checkBox" className="footerCheckBox"  onClick={()=>checkIt()} />
-                    {/* <input type="checkBox" className="footerCheckBox"  onClick={()=>checkIt()} /> */}
+                   
                     </div>
-                    <div>I agree to the <b> <span className="pink space"> Terms of Use </span> </b>and have read and understand the <b><span className="pink space"> Privacy Policy.</span></b>
+                    <div id="iAgree">I agree to the <b> <span className="pink space"> Terms of Use </span> </b>and have read and understand the <b><span className="pink space"> Privacy Policy.</span></b>
                     </div>
 </div>
 <div>
@@ -153,6 +155,8 @@ export default function DonationPayment(){
 
 
         </div>
+        
+        <Footer />
         </>
     )
 }

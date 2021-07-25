@@ -1,43 +1,48 @@
+import "../css/Footer.css"
+import styled from "styled-components"
 
-export default function Footer(){
+const P = styled.h4`
+    font-size: 14px;
+`
 
+function Footer() {
 
     return(
         <>
-    <div className="footerMainDivs">
+    <div className="footerMainDiv">
         <div className="footerContainer">
-
+​
         {/* upper part */}
         <div className="footerUpperPart">
-
+​
         <div className="footerUpperPart1">
             <div className="footerUpperPartHeading">EXPLORE</div>
-            <p>What we Do</p>
-            <p>Funding</p>
-            <p>GoFundMe</p>
+            <P>What we Do</P>
+            <P>Funding</P>
+            <P>GoFundMe</P>
         </div>
         <div className="footerUpperPart2">
-
+​
             <div className="footerUpperPartHeading">ABOUT</div>
         
-        <p>About US</p>
-        <p>Blog</p>
-        <p>Trust & Safety</p>
-        <p>Help & Support</p>
-        <p>Press</p>
-        <p>Careers</p>
-        <p>Contact</p>
+        <P>About US</P>
+        <P>Blog</P>
+        <P>Trust & Safety</P>
+        <P>Help & Support</P>
+        <P>Press</P>
+        <P>Careers</P>
+        <P>Contact</P>
         </div>
         <div className="footerUpperPart3">
-
+​
             <div className="footerUpperPartHeading">ENTREPRENEURS</div>
-        <p>How It Works</p>
-        <p>Indiegogo vs. Kickstarter</p>
-        <p>Education Center</p>
-        <p>Experts Directory</p>
-        <p>Fees</p>
-        <p>Enterprise</p>
-        <p>China</p>
+        <P>How It Works</P>
+        <P>Indiegogo vs. Kickstarter</P>
+        <P>Education Center</P>
+        <P>Experts Directory</P>
+        <P>Fees</P>
+        <P>Enterprise</P>
+        <P>China</P>
         </div>
         <div className="footerUpperPart4">
             <div className="emailIconDiv">
@@ -45,15 +50,15 @@ export default function Footer(){
             </div>
             <div className="footerUpperPart4HeaderDiv">
                 <h3>Find it first on Indiegogo</h3>
-                <p>Discover new and clever products in the Indiegogo newsletter</p>
+                <P>Discover new and clever products in the Indiegogo newsletter</P>
             </div>
-
+​
             <div className="footerUpperPart4FormDiv">
                 <form name="footerForm" id="footerForm" >
                     <div>
                     <input name="footerFormEmail" id="footerFormEmail" type="email" placeholder="Your email address"></input>
                     </div>
-
+​
 <div className="flex margin-top-5 alignLeft">
     <div>
                     <input type="checkBox" className="footerCheckBox" />
@@ -66,51 +71,53 @@ export default function Footer(){
                     </div>
                 </form>
             </div>
-
+​
             
         </div>
-
-
+​
+​
         </div>
-
-
-
+​
+​
+​
         {/* Middle part */}
         <div className="footerMiddlePart flex">
-
+​
         <div className="fmpButtonDiv">
             <button id="fmpButton">₹ Indian Rupee (INR)</button>
         </div>
-
+​
         <div className="footerSocialMediaDiv flex">
-            <div id="footerFacebookIcon"><img src="./fbIcon.png" alt="icon" /></div>
-            <div id="footerTwitterIcon"><img src="./twitterIcon.png" alt="icon" /></div>
-            <div id="footerYoutubeIcon"><img src="./youtubeIcon.png" alt="youtube Icon" /></div>
-            <div id="footerInstagramIcon"><img src="./igIcon.png" alt="icon" /></div>
-            <div id="footerLinkdinIcon"><img src="./inIcon.png" alt="icon" /></div>
+            <div id="footerFacebookIcon"><img src="./facebookIcon" alt="icon" /></div>
+            <div id="footerTwitterIcon"><img src="./twitterIcon." alt="icon" /></div>
+            <div id="footerYoutubeIcon"><img src="./" alt="icon" /></div>
+            <div id="footerInstagramIcon"><img src="" alt="icon" /></div>
+            <div id="footerLinkdinIcon"><img src="" alt="icon" /></div>
         
         </div>
-
+​
         </div>
-
+​
         {/* Bottom part */}
         <hr></hr>
         <div className="footerBottomPart flex">
             <div className="bbbDiv"><img src="https://www.indiegogo.com/images/bbbImage.png" alt="bbb acredation" />
                 </div>
             <div className="footerLastLine flex">
-          <p>  Terms of Use</p>
-            <p>Privacy Policy</p>
-            <p>Cookie Policy</p>
-            <p>Do Not Sell My Personal Information</p>
-            <p>Accessibility</p>
-            <p>© 2021 Indiegogo, Inc. All Rights Reserved</p>
+            <P>Terms of Use</P>
+            <P>Privacy Policy</P>
+            <P>Cookie Policy</P>
+            <P>Do Not Sell My Personal Information</P>
+            <P>Accessibility</P>
+            <P>© 2021 Indiegogo, Inc. All Rights Reserved</P>
             </div>
         </div>
-
-
+​
+​
     </div>
     </div>
         </>
     )
 }
+
+export default Footer;

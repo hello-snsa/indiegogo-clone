@@ -1,0 +1,89 @@
+.footerMainDiv {
+  padding: 5%;
+  background-color: rgb(8, 3, 3);
+  color: white;
+  margin-top: 100px;
+}
+.footerContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footerUpperPart {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+​ .footerCheckBox {
+  cursor: pointer;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #c8c8c8;
+}
+.footerUpperPart4 {
+  text-align: center;
+  width: 270px;
+}
+#emailIcon {
+  width: 8rem;
+}
+​ .footerUpperPart4HeaderDiv {
+  text-align: center;
+  margin-top: -10%;
+}
+
+.footerUpperPart4HeaderDiv p {
+  margin-top: -5%;
+}
+
+#footerFormEmail {
+  width: 100%;
+  height: 1rem;
+  padding: 5%;
+  overflow: visible;
+  font-size: 16px;
+}
+
+#footerFormSubmit {
+  padding: 2%;
+  width: 19rem;
+  height: 2.5rem;
+  background-color: #e51075;
+  border: 1px solid #e51075;
+  color: white;
+  font-weight: 600;
+  margin-top: 5%;
+}
+.footerUpperPart4FormDiv span {
+  text-decoration: underline;
+}
+​ .footerMiddlePart {
+  width: 33%;
+}
+.footerSocialMediaDiv {
+  padding: 2%;
+}
+​ #fmpButton {
+  min-width: 12rem;
+  padding: 1%;
+  height: 2.5rem;
+  background-color: white;
+  border: solid 0.5px lightgray;
+}
+.footerBottomPart {
+  font-size: small;
+}
+.footerLastLine p {
+  width: 100%;
+  height: 1rem;
+  padding: 5%;
+  overflow: visible;
+  font-size: 16px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.bbbDiv img {
+  height: 60px;
+}

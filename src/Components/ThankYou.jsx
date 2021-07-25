@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 export default function ThankYou(){
 
     return(
     
     <>
+    <Navbar />
     <div className="thankYouMainDiv">
         <div>
             <div className="thankyouHeader">
@@ -24,6 +27,9 @@ export default function ThankYou(){
         
         
         </div>
+
+
+        <Footer />
         </>
         )
 }

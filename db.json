@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "firstname": "ali",
+      "lastname": "snsa",
+      "email": "ali@gmail.com",
+      "password": "123123",
+      "id": 1
+    },
+    {
+      "firstname": "ali",
+      "lastname": "snnsa",
+      "email": "ali2@gmail.com",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "firstname": "mmd",
+      "lastname": "ali",
+      "email": "ali3@gmail.com",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "firstname": "ali",
+      "lastname": "md",
+      "email": "ali4@gmail.com",
+      "password": "123123",
+      "id": 4
+    }
+  ]
+}
