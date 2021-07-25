@@ -23,8 +23,7 @@ function App() {
   <Route path="/donationpage" component={DonationPage} exact />
   <Route path="/donationpayment" component={DonationPayment} exact />
   <Route path="/thankyou" component={ThankYou} exact />
-  {/* <Route path="/" component={Home} exact /> */}
-  {/* <Route component={Error} /> */}
+ 
  
    {/* <DonationPage data="" /> */}
 
